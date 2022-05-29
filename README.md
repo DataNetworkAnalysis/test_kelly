@@ -18,6 +18,11 @@ branch 바꾸는 박스를 눌러서 (find or create a branch가 적혀있는) �
 [참고](https://redcow77.tistory.com/438) <br>
 <br>
 
++ 코드로 브랜치 생성 후에는 아래의 코드를 통해 초기 설정(?)이 필요합니다.
+```
+git push --set-upstream origin 브랜치네임
+```
+
 # 2. 작업 시작 전에는 무조건 pull을 해서 최신 소스를 불러와야한다.
 코드로는
 ```
